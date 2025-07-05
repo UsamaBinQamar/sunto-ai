@@ -415,3 +415,15 @@ hr {
 
 /* Accessibility: Ensure contrast for all text on backgrounds */
 /* Use .text-slate-gray on light backgrounds, .text-soft-white on dark backgrounds, etc. */
+
+.bg-card,
+.card,
+.rounded-lg,
+.border {
+  background-color: var(--soft-white) !important;
+}
+
+.sidebar,
+.sidebar * {
+  color: #fff !important;
+}
